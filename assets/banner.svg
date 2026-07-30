@@ -1,0 +1,52 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="55%" stop-color="#111a2e"/>
+      <stop offset="100%" stop-color="#08101c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#60a5fa" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+  <g opacity="0.18">
+    <circle cx="120" cy="80" r="90" fill="none" stroke="#8ab4f8" stroke-width="1.5"/>
+    <circle cx="1080" cy="300" r="120" fill="none" stroke="#8ab4f8" stroke-width="1.5"/>
+    <circle cx="1000" cy="60" r="50" fill="none" stroke="#8ab4f8" stroke-width="1.2"/>
+    <circle cx="150" cy="300" r="45" fill="none" stroke="#8ab4f8" stroke-width="1.2"/>
+  </g>
+
+  <g opacity="0.15">
+    <line x1="80" y1="60" x2="1120" y2="60" stroke="url(#lineGrad)" stroke-width="1"/>
+    <line x1="80" y1="320" x2="1120" y2="320" stroke="url(#lineGrad)" stroke-width="1"/>
+  </g>
+
+  <g opacity="0.12">
+    <path d="M0,180 Q300,120 600,180 T1200,180" fill="none" stroke="#93c5fd" stroke-width="1.4"/>
+    <path d="M0,220 Q300,280 600,220 T1200,220" fill="none" stroke="#93c5fd" stroke-width="1.2"/>
+  </g>
+
+  <g opacity="0.2">
+    <circle cx="600" cy="180" r="150" fill="none" stroke="#a5c9ff" stroke-width="1"/>
+    <circle cx="600" cy="180" r="200" fill="none" stroke="#a5c9ff" stroke-width="0.8"/>
+  </g>
+
+  <text x="600" y="155" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="56.0" font-weight="700" fill="#ffffff">
+    <tspan x="600" dy="0">Бесплатный ВПН</tspan>
+    <tspan x="600" dy="64">Для Обхода Блокировок</tspan>
+  </text>
+
+  <text x="600" y="270" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21.0" fill="#c9d1d9">
+    Бесплатный ВПН для обхода блокировок РФ — a lightweight Windows tool.
+  </text>
+</svg>
